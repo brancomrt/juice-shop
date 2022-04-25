@@ -51,6 +51,6 @@ jobs:
     
     steps:
       -name: Imprime mensagem final
-        echo: Stop final
+        run: echo Stop final
     
   
