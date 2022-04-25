@@ -35,3 +35,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  printer:
+    runs-on: ubuntu-latest
+   
+    steps:
+      - name: Impressora 1
+        run: echo Impressora disponível 
+      - name: Impressora 2
+        run: echo Impressora Ocupada 
+     
+          
