@@ -50,7 +50,7 @@ jobs:
     needs: [hello-world, printer]
     
     steps:
-      -name: Imprime mensagem final
+      - name: Imprime mensagem final
         run: echo Stop final
     
   
